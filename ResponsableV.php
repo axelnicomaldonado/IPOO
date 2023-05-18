@@ -55,7 +55,10 @@ class ResponsableV{
     }
 
     public function __toString(){
-        $cadena = "Nombre: " .$this->nombre. ". Apellido: " .$this->apellido. ". Número de licencia: " .$this->nroLicencia. ". Número de empleado: " .$this->nroEmpleado;
+        $cadena = "Nombre: " .$this->nombre. 
+        ".\n Apellido: " .$this->apellido. 
+        ".\n Número de licencia: " .$this->nroLicencia. 
+        ".\n Número de empleado: " .$this->nroEmpleado;
         return $cadena;
     }
 
